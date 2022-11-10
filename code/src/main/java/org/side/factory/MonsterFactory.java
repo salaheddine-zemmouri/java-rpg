@@ -4,6 +4,7 @@ import org.side.entities.Brigand;
 import org.side.entities.Gobelin;
 import org.side.entities.Guerrier;
 import org.side.entities.Monstre;
+import org.side.enums.ACTEUR;
 
 
 public class MonsterFactory {
@@ -22,11 +23,9 @@ public class MonsterFactory {
         return onlyOneMonsterFactory ;
     }
     public Monstre createMonster(String id) {
-        return switch (id) {
-            case "ger" -> new Guerrier();
-            case "brig" -> new Brigand();
-            case "gobl" -> new Gobelin();
-            default -> null;
-        };
+        if(id.equals(ACTEUR.GUERRIER.ID)) return new Guerrier();
+        else if(id.equals(ACTEUR.BRIGAND.ID)) return new Brigand();
+        else if(id.equals(ACTEUR.GOBELIN.ID)) return new Guerrier();
+        else return null;
     }
 }
