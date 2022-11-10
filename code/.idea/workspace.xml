@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dadca70c-7531-4ea2-9a31-49b8bd7ce2a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/TestPart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/TestPart1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Acteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Acteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Brigand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Brigand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Gobelin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Gobelin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Guerrier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/factory/MonsterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/factory/MonsterFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668034722988</updated>
       <workItem from="1668034724591" duration="4004000" />
-      <workItem from="1668086011042" duration="6091000" />
+      <workItem from="1668086011042" duration="6325000" />
     </task>
     <servers />
   </component>
