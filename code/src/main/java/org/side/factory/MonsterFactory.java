@@ -22,10 +22,12 @@ public class MonsterFactory {
 
         return onlyOneMonsterFactory ;
     }
-    public Monstre createMonster(String id) {
+    public Monstre createMonster(String id)
+    {
         if(id.equals(ACTEUR.GUERRIER.ID)) return new Guerrier();
         else if(id.equals(ACTEUR.BRIGAND.ID)) return new Brigand();
         else if(id.equals(ACTEUR.GOBELIN.ID)) return new Guerrier();
         else return null;
     }
+
 }
