@@ -5,6 +5,7 @@ import org.side.partie1.enums.ACTEUR;
 public class Gobelin extends Acteur implements Monstre {
     public Gobelin() {
         super(ACTEUR.GOBELIN.PV_ORIGINE, ACTEUR.GOBELIN.DEGAT, ACTEUR.GOBELIN.MVT);
+        System.out.println("Gobelin have been created");
     }
 
     @Override

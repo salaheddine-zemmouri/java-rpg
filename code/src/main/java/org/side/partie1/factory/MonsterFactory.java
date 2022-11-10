@@ -13,7 +13,20 @@ Factory pattern provides abstraction between implementation and client classes t
 
 public class MonsterFactory {
     private static  MonsterFactory onlyOneMonsterFactory;
-    public static Monstre createMonster(String id) {
+
+    private MonsterFactory() {
+
+    }
+
+    public static MonsterFactory getOnlyOneMonsterFactory() {
+        if (onlyOneMonsterFactory == null) {
+            System.out.println("Only instance created");
+            onlyOneMonsterFactory = new MonsterFactory() ;
+        }
+
+        return onlyOneMonsterFactory ;
+    }
+    public Monstre createMonster(String id) {
         return switch (id) {
             case "ger" -> new Guerrier();
             case "brig" -> new Brigand();
