@@ -1,4 +1,4 @@
-package org.side.partie1.entities;
+package org.side.entities;
 
 
 public interface Monstre {

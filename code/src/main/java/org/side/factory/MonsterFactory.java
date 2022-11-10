@@ -1,9 +1,9 @@
-package org.side.partie1.factory;
+package org.side.factory;
 
-import org.side.partie1.entities.Brigand;
-import org.side.partie1.entities.Gobelin;
-import org.side.partie1.entities.Guerrier;
-import org.side.partie1.entities.Monstre;
+import org.side.entities.Brigand;
+import org.side.entities.Gobelin;
+import org.side.entities.Guerrier;
+import org.side.entities.Monstre;
 
 
 public class MonsterFactory {

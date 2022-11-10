@@ -1,4 +1,4 @@
-package org.side.partie1.enums;
+package org.side.enums;
 
 public enum ACTEUR  {
     BRIGAND(8, 2, 10),

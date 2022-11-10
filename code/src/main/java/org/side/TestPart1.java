@@ -1,10 +1,8 @@
-package org.side.partie1;
+package org.side;
 
-import org.side.partie1.entities.Acteur;
-import org.side.partie1.entities.Brigand;
-import org.side.partie1.entities.Guerrier;
-import org.side.partie1.entities.Monstre;
-import org.side.partie1.factory.MonsterFactory;
+import org.side.entities.Acteur;
+import org.side.entities.Monstre;
+import org.side.factory.MonsterFactory;
 
 
 /*

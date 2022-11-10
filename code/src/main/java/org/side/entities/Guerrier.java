@@ -1,6 +1,6 @@
-package org.side.partie1.entities;
+package org.side.entities;
 
-import org.side.partie1.enums.ACTEUR;
+import org.side.enums.ACTEUR;
 
 public class Guerrier extends Acteur implements Monstre {
     public Guerrier() {
