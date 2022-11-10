@@ -1,4 +1,4 @@
-package org.side.utils;
+package org.side.partie1.utils;
 
 public class Pos {
     private final double x;
