@@ -1,6 +1,6 @@
 package org.side.partie1.entities;
 
-import org.side.utils.Pos;
+import org.side.partie1.utils.Pos;
 
 public class Acteur {
 
