@@ -5,4 +5,5 @@ public interface Monstre {
     void attack();
     void fuir();
     void engager();
+
 }

@@ -12,6 +12,8 @@ public class Acteur {
     private Pos pos;
 
 
+
+
     public Acteur(int pv_origine, int degat, int mvt) {
         PV_ORIGINE = pv_origine;
         DEGAT = degat;
@@ -33,6 +35,17 @@ public class Acteur {
 
     public void setPos(Pos pos) {
         this.pos = pos;
+    }
+
+    @Override
+    public String toString() {
+        return "Acteur{" +
+                "PV_ORIGINE=" + PV_ORIGINE +
+                ", DEGAT=" + DEGAT +
+                ", MVT=" + MVT +
+                ", pv=" + pv +
+                ", pos=" + pos +
+                '}';
     }
 }
 

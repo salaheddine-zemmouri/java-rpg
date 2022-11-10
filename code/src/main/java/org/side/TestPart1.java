@@ -2,6 +2,7 @@ package org.side;
 
 import org.side.entities.Acteur;
 import org.side.entities.Monstre;
+import org.side.enums.ACTEUR;
 import org.side.factory.MonsterFactory;
 
 
@@ -26,14 +27,16 @@ public class TestPart1 {
 
 
 
-        Monstre monstre = MonsterFactory.getOnlyOneMonsterFactory().createMonster("ger");
+        Monstre monstre = MonsterFactory.getOnlyOneMonsterFactory().createMonster(ACTEUR.BRIGAND.ID);
 
-        Monstre monstre1 = MonsterFactory.getOnlyOneMonsterFactory().createMonster("gobl");
-        Monstre monstre2 = MonsterFactory.getOnlyOneMonsterFactory().createMonster("brig");
+        Monstre monstre1 = MonsterFactory.getOnlyOneMonsterFactory().createMonster(ACTEUR.GOBELIN.ID);
+        Monstre monstre2 = MonsterFactory.getOnlyOneMonsterFactory().createMonster(ACTEUR.GUERRIER.ID);
 
 
         System.out.println(((Acteur)monstre).getPv());
         System.out.println(((Acteur)monstre1).getPv());
         System.out.println(((Acteur)monstre2).getPv());
+
+
     }
 }
