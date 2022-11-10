@@ -1,4 +1,4 @@
-package org.side.partie1.entities;
+package org.side.entities;
 
 public class Joueur extends Acteur{
     public Joueur() {

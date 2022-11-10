@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dadca70c-7531-4ea2-9a31-49b8bd7ce2a1" name="Changes" comment="" />
+    <list default="true" id="dadca70c-7531-4ea2-9a31-49b8bd7ce2a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/TestPart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/TestPart1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Acteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/entities/Acteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Brigand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/entities/Brigand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Gobelin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/entities/Gobelin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/entities/Guerrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Joueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/entities/Joueur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Monstre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/entities/Monstre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/enums/ACTEUR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/enums/ACTEUR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/factory/MonsterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/factory/MonsterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/utils/Pos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/utils/Pos.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,11 +57,11 @@
   </component>
   <component name="RunManager">
     <configuration name="TestPart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.side.partie1.TestPart1" />
+      <option name="MAIN_CLASS_NAME" value="org.side.TestPart1" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.side.partie1.*" />
+          <option name="PATTERN" value="org.side.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668034722988</updated>
       <workItem from="1668034724591" duration="4004000" />
-      <workItem from="1668086011042" duration="6741000" />
+      <workItem from="1668086011042" duration="7191000" />
     </task>
     <servers />
   </component>
