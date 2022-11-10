@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dadca70c-7531-4ea2-9a31-49b8bd7ce2a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Acteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Joueur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/Acteur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/Brigand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Brigand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/Gobelin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Gobelin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/Guerrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Guerrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/Joueur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/MonsterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/factory/MonsterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/Monstre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/entities/Monstre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/side/partie1/TestPart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/side/partie1/TestPart1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -36,9 +48,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ibrah/Desktop/RPG/java-rpg/code"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.side.partie1.enums" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668034722988</updated>
-      <workItem from="1668034724591" duration="2888000" />
+      <workItem from="1668034724591" duration="4004000" />
+      <workItem from="1668086011042" duration="4270000" />
     </task>
     <servers />
   </component>
